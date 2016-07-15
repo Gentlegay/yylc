@@ -1,0 +1,44 @@
+{
+  "name": "customerser",
+  "version": "1.0.0",
+  "description": "客户服务",
+  "main": "index.js",
+  "devDependencies": {
+    "babel-core": "^6.7.6",
+    "babel-loader": "^6.2.4",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.8.5",
+    "html-webpack-plugin": "^2.15.0",
+    "jsx-loader": "^0.13.2",
+    "moment": "^2.13.0",
+    "node-sass": "^3.4.2",
+    "react": "^15.0.1",
+    "react-dom": "^15.0.1",
+    "react-dropzone": "^3.4.0",
+    "react-tap-event-plugin": "^1.0.0",
+    "reflux": "^0.4.1",
+    "sass": "^0.5.0",
+    "sass-loader": "^3.2.0",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.15",
+    "webpack-dev-server": "^1.14.1",
+    "webpack-merge": "^0.12.0",
+    "webpack-zepto": "0.0.1"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "build": "webpack -p --progress --colors"
+  },
+  "path": {
+    "devHost": "127.0.0.1",
+    "port": 3000
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@192.168.2.115:platform/activities.git"
+  },
+  "author": "zPeter",
+  "license": "ISC"
+}
